@@ -12,8 +12,8 @@ export default class Navbar extends Component {
   render() {
     const {activeItem} = this.state
     return (<nav>
-      <Segment inverted="inverted">
-        <Menu inverted="inverted" pointing="pointing" secondary="secondary">
+      <Segment>
+        <Menu pointing="pointing" secondary="secondary">
 
           <NavLink to="/">
             <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleItemClick}/>

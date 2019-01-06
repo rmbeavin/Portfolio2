@@ -6,7 +6,7 @@ export default class Main extends Component {
     return (<div id="resume">
       <div id="about">
         <h1>About Me</h1>
-        <img src="http://placekitten.com/g/300/400" className="profile-pic" alt="placekitten"/>
+        <img src="http://placekitten.com/g/350/450" className="profile-pic" alt="placekitten"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facere dolores magni totam sapiente libero reiciendis repellat atque error soluta sit, modi, doloremque, ab iusto nostrum reprehenderit magnam voluptatum quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facere dolores magni totam sapiente libero reiciendis repellat atque error soluta sit, modi, doloremque, ab iusto nostrum reprehenderit magnam voluptatum quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facere dolores magni totam sapiente libero reiciendis repellat atque error soluta sit, modi, doloremque, ab iusto nostrum reprehenderit magnam voluptatum quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facere dolores magni totam sapiente libero reiciendis repellat atque error soluta sit, modi, doloremque, ab iusto nostrum reprehenderit magnam voluptatum quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facere dolores magni totam sapiente libero reiciendis repellat atque error soluta sit, modi, doloremque, ab iusto nostrum reprehenderit magnam voluptatum quasi!
         </p><br/>
       </div>
