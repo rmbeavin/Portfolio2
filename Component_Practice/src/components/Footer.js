@@ -9,7 +9,7 @@ export default class Footer extends Component {
         <div className="footer-content">
           <span>
             <a href="https://www.linkedin.com/in/robert-beavin-8b6a28175/">
-              <i class="fab fa-linkedin-square"></i>
+              <i className="fab fa-linkedin-square"></i>
             </a>
           </span>
           <span>

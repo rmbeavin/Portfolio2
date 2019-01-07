@@ -15,38 +15,32 @@ export default class Main extends Component {
           <caption>
             <h1>Skills</h1>
           </caption>
+          <tbody>
           <td>HTML
             <i className="fab fa-html5"></i>
           </td>
-          <tr></tr>
           <td>CSS
             <i className="fab fa-css3-alt"></i>
           </td>
-          <tr></tr>
           <td>JavaScript
             <i className="fab fa-js-square"></i>
           </td>
-          <tr></tr>
           <td>Node
             <i className="fab fa-node-js"></i>
           </td>
-          <tr></tr>
           <td>jQuery
             <i className="fab fa-js-square"></i>
           </td>
-          <tr></tr>
           <td>React
             <i className="fab fa-react"></i>
           </td>
-          <tr></tr>
           <td>Git
             <i className="fas fa-code-branch"></i>
           </td>
-          <tr></tr>
           <td>Github
             <i className="fab fa-github-square"></i>
           </td>
-          <tr></tr>
+          </tbody>
         </table>
       </div>
       <div className="work">
