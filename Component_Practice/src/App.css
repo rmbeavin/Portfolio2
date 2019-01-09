@@ -93,7 +93,6 @@ HOME
   text-align: center;
   background: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
   background-size: cover;
-  filter: invert(100%);
 }
 
 #home header {
@@ -134,11 +133,9 @@ HOME
   height: auto;
   width: 25%;
   margin-left: .5em;
-  filter: invert(100%);
   border-radius: 2%;
   border: 2.25px solid black;
   margin-top: .5em;
-  box-shadow: #000 1px 0.5px 30px -5px;
 }
 
 /******************************************************
@@ -230,6 +227,7 @@ RESUME
   display: flex;
   justify-content: center;
   margin-left: 5em;
+  font-size: 2em;
 }
 
 /******************************************************
@@ -369,66 +367,5 @@ aside#social a {
     margin: 0 auto;
     background-image: url(./images/Gambit.jpg);
 }
-/******************************************************
-RESUME
-******************************************************/
-  #resume  {
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
-  }
 
-  table {
-    font-size: 2em;
-    padding: 1em;
-  }
-
-  td {
-    padding: .5em;
-  }
-
-  ul i {
-    font-size: 50px
-  }
-
-  ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .image-container{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em;
-  }
-
-  .image-container img {
-    margin-left: 3.4em;
-  }
-
-  footer span {
-    margin-right: -6em;
-  }
-
-  footer span i {
-    margin-top: .25em;
-    font-size: 3em;
-    color: white;
-  }
-
-}
-
-@media only screen and (min-width: 1080px) {
-  body {
-    background-color: rgb(230, 230, 230);
-  }
-
-  .profile-pic {
-    height: auto;
-    width: 20%;
-    margin-left: .5em;
-    border-radius: 2%;
-    border: 2.25px solid black;
-    margin-top: .5em;
-  }
 }
